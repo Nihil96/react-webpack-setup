@@ -18,7 +18,7 @@
     ],
     "rules": {
         "quotes": [2, "double", { "avoidEscape": true }],
-        "comma-dangle": ["error", "never"],
+        "comma-dangle": ["error", "only-multiline"]
     },
     "settings": {
         "react": {
