@@ -4,11 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const { HotModuleReplacementPlugin } = require("webpack")
 
-let mode = "development"
-
-if (process.env.NODE_ENV === "production") {
-  mode = "production"
-}
+const mode = process.env.NODE_ENV === "production" ? "production" : "development"
 
 module.exports = {
   mode,

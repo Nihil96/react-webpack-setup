@@ -5,7 +5,7 @@ interface RoundedImageProps {
 }
 
 const RoundedImage = ({ img }: RoundedImageProps) => {
-  return <img className="rounded-image" src={img} alt="rounded image" />
+  return <img className='rounded-image' src={img} alt='rounded image' />
 }
 
 export { RoundedImage }
