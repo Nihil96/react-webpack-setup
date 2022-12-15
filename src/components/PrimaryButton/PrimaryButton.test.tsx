@@ -10,7 +10,7 @@ test("renders the primary button correctly", () => {
 
 test("should be enabled by default", () => {
   render(<PrimaryButton />)
-  let primaryButton = screen.getByRole("button", {
+  const primaryButton = screen.getByRole("button", {
     name: "Primary Button",
   })
 

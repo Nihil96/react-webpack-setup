@@ -1,1 +1,1 @@
-import { RoundedImage } from "./RoundedImage"
+export { RoundedImage } from "./RoundedImage"
