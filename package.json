@@ -11,6 +11,7 @@
     "clean": "rm -rf dist",
     "lint": "eslint .",
     "test": "jest",
+    "prettier": "prettier --write .",
     "prepare": "husky install"
   },
   "keywords": [],
