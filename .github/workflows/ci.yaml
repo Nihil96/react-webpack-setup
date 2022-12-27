@@ -2,7 +2,7 @@ name: CI
 on: [push]
 jobs:
   standard-checks:
-    name: Linting and Testing
+    name: Linting, Testing and Building
     runs-on: ubuntu-latest
 
     steps:
@@ -21,3 +21,6 @@ jobs:
 
       - name: Run Jest Tests
         run: npm run test
+
+      - name: Webpack Bundle
+        run: npm run build
