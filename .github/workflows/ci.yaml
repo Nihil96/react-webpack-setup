@@ -17,3 +17,6 @@ jobs:
 
       - name: Run Prettier
         run: npm run prettier
+
+      - name: Run Jest Tests
+        run: npm run test
