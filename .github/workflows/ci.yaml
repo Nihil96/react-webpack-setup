@@ -1,8 +1,8 @@
 name: CI
 on: [push]
 jobs:
-  eslint:
-    name: Lint code base
+  standard-checks:
+    name: Linting and Testing
     runs-on: ubuntu-latest
 
     steps:
