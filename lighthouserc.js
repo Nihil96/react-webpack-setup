@@ -10,8 +10,8 @@ module.exports = {
       preset: "lighthouse:no-pwa",
       // skip the assertions and fix them later
       assertions: {
-        "csp-xss": "off",
-        "render-blocking-resources": "off",
+        "csp-xss": "warn",
+        "render-blocking-resources": "warn",
         "unused-javascript": "off",
         "image-size-responsive": "off",
         "image-aspect-ratio": "off",
