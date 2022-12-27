@@ -24,3 +24,6 @@ jobs:
 
       - name: Build project with Webpack
         run: npm run build
+
+      - name: Performance and Quality Check
+        run: npm run lighthouse
