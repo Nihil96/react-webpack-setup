@@ -13,14 +13,14 @@ jobs:
       - name: Install packages
         run: npm ci
 
-      - name: Run Eslint
+      - name: Lint code with Eslint
         run: npm run lint
 
-      - name: Run Prettier
+      - name: Format code with Prettier
         run: npm run prettier
 
-      - name: Run Jest Tests
+      - name: Run unit tests with Jest
         run: npm run test
 
-      - name: Webpack Bundle
+      - name: Build project with Webpack
         run: npm run build
