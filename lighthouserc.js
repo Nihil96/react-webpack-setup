@@ -19,6 +19,7 @@ module.exports = {
         "unused-javascript": "off",
         "image-size-responsive": "off",
         "image-aspect-ratio": "off",
+        "preload-lcp-image": "warn",
       },
     },
   },
