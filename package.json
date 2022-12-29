@@ -64,6 +64,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "generate-react-cli": "^8.1.2",
     "identity-obj-proxy": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
