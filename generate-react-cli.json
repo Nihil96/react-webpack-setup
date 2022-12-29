@@ -1,0 +1,21 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": false,
+  "cssPreprocessor": "scss",
+  "testLibrary": "None",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "index": "src/assets/react-cli/templates/default/index.tsx",
+        "component": "src/assets/react-cli/templates/default/TemplateName.tsx",
+        "style": "src/assets/react-cli/templates/default/TemplateName.scss"
+      }
+    }
+  }
+}
