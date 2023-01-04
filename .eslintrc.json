@@ -17,12 +17,18 @@
         "project": "./tsconfig.json"
     },
     "plugins": [
-        "react"
+        "react",
+        "testing-library",
+        "jest-dom"
     ],
     "rules": {
         "react-hooks/exhaustive-deps": 0,
         "react/react-in-jsx-scope": "off",
         "react/prop-types": "off",
+        "testing-library/no-await-sync-query": "error",
+        "jest-dom/prefer-checked": "error",
+        "jest-dom/prefer-focus": "error",
+        "jest-dom/prefer-enabled-disabled": "error",
         "@typescript-eslint/no-var-requires": 0,
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/consistent-type-imports": 2,
