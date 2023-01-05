@@ -18,11 +18,14 @@
     },
     "plugins": [
         "react",
+        "@typescript-eslint",
         "testing-library",
-        "jest-dom"
+        "jest-dom",
+        "react-hooks"
     ],
     "rules": {
         "react-hooks/exhaustive-deps": 0,
+        "react-hooks/rules-of-hooks": "error",
         "react/react-in-jsx-scope": "off",
         "react/prop-types": "off",
         "testing-library/no-await-sync-query": "error",
