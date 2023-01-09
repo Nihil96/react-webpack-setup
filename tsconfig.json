@@ -1,5 +1,21 @@
 {
   "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": "./src/",
+    "paths": {
+      "@apis/*": ["apis/*"],
+      "@assets/*": ["assets/*"],
+      "@constants/*": ["constants/*"],
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@enums/*": ["enums/*"],
+      "@models/*": ["models/*"],
+      "@routes/*": ["routes/*"],
+      "@services/*": ["services/*"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["utils/*"],
+      "@views/*": ["views/*"]
+    },
     "jsx": "react-jsx",
     "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "module": "commonjs" /* Specify what module code is generated. */,

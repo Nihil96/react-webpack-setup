@@ -3,5 +3,13 @@
   "tabWidth": 2,
   "trailingComma": "all",
   "semi": false,
-  "printWidth": 120
+  "printWidth": 120,
+  "importOrder": [
+    "^(assets|components|constants|enums|models|routes|services|styles|utils)/?(.*)$",
+    "^[^\\w](?!.*scss).*",
+    "\\.(scss)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderParserPlugins": ["jsx", "typescript"]
 }
