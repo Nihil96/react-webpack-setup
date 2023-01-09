@@ -1,6 +1,7 @@
 const path = require("path")
 const { rules } = require("./webpack/rules")
 const { plugins } = require("./webpack/plugins")
+const { getAliases } = require("./webpack/utils")
 
 const mode = process.env.NODE_ENV === "production" ? "production" : "development"
 
@@ -21,6 +22,7 @@ module.exports = {
 
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
+    alias: getAliases(),
   },
 
   devtool: "source-map",

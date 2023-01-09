@@ -1,6 +1,6 @@
-import { PrimaryButton } from "./components/PrimaryButton"
+import { PrimaryButton } from "@components/PrimaryButton"
 
-import "./styles/global_classes.scss"
+import "@styles/global_classes.scss"
 
 const App = () => {
   return (
