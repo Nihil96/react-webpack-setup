@@ -44,6 +44,7 @@ const Effect: FC<EffectProps> = () => {
   }, [])
 
   // this is the correct way of fetching data to avoid race conditions
+  // also this code will run only once in development with strict mode
   useEffect(() => {
     let isMounted = true // variable to track if the component is still mounted
     fetch("https://jsonplaceholder.typicode.com/todos")
